@@ -1,4 +1,4 @@
-﻿namespace winform_dependency_injection
+﻿namespace winform_dependency_injection.Views
 {
     partial class Form1
     {
@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Text = "Form1";
         }
 
